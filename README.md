@@ -4,15 +4,18 @@ this is the backend for the Bookstore it is using Node Mongo and Express interna
 # URL endpoints for Books---
 <h2> endpoint for getting all books of </h2> (GET)
 --- <b>https://successful-dog-ring.cyclic.app/api/books</b>
+<br>
 --- response {msg:"here is the list of all books",data}
 
 <h2> endpoint for finding books of specific category </h2> (GET)
 --- <b>https://successful-dog-ring.cyclic.app/api/books?category=fiction&author=robert</b>
+<br>
 --- response {msg:"here is the list of all books",data}
 
 
 <h2> endpoint for finding a single book with a id </h2> (GET)
 --- <b>https://successful-dog-ring.cyclic.app/api/books/${id}</b>
+<br>
 --- response {msg:"here is the list of all books",data}
 
 
