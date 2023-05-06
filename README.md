@@ -22,6 +22,8 @@ this is the backend for the Bookstore it is using Node Mongo and Express interna
 <h2> endpoint for posting the book(authentication is required)</h2> (POST)
 --- <b>https://successful-dog-ring.cyclic.app/api/books</b>
 --- req body will have bookModel schema
+<br>
+<br>
 --- {
     title: String,
     author: String,
@@ -42,6 +44,8 @@ this is the backend for the Bookstore it is using Node Mongo and Express interna
 <h2> endpoint for registering the user </h2> (POST)
 --- <b>https://successful-dog-ring.cyclic.app/api/register</b>
 --- req body will have userModel schema
+<br>
+<br>
 --- {
     name: String,
     email: String,
@@ -51,5 +55,6 @@ this is the backend for the Bookstore it is using Node Mongo and Express interna
 
 <h2> endpoint for logging in the user </h2> (POST)
 --- <b>https://successful-dog-ring.cyclic.app/api/login</b>
+<br>
 --- response {msg:"login succesfully",token}
 
