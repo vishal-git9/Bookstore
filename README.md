@@ -1,4 +1,4 @@
-# Bookstore_bakend
+# Bookstore_backend
 this is the backend for the Bookstore it is using Node Mongo and Express internally for all the CRUD operations.
 
 # URL endpoints for Books---
